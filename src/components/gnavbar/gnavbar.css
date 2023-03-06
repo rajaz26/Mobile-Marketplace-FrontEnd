@@ -1,0 +1,121 @@
+.gnav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+ background-color:  rgb(0,61,43);
+}
+
+.navbarContainer{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gnavItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+.gnavItem{
+    cursor: pointer;
+    color: white;
+}
+
+.warrow{
+    position: relative;
+    top: 2px;
+    height: 15px;
+    width: 16px;
+    padding-left: 5px;
+}
+
+.logo{
+    position: relative;
+    width: 110px;
+    height: 30px;
+    top: 2px;
+}
+
+.cart{
+    background-color:  white;
+    color:rgb(0,61,43);
+    width: 60px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.gnavButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:2px;
+    color:rgb(0,61,43);
+    background-color:  white;
+    color:rgb(0,61,43);
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight:550;
+}
+
+.gnavItem:nth-child(4)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:2px;
+    color: white;
+    background-color:  rgb(0,61,43);
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight:550;
+}
+
+.gdropdown{
+    padding: 19px 0 0 0;
+    margin: 0;
+    width: 8rem;
+    list-style: none;
+    position: absolute;
+    color:  white;
+    z-index: 1;
+    opacity: 0;
+    background-color:   rgb(0,61,43);
+    transition: opacity 150ms ease-in-out;
+}
+
+.gdropdownItem{
+    padding: 12px 12px;
+}
+
+
+.gdropdownItem:hover{
+    border-bottom: 1px solid white;
+    color:  rgb(0,61,43);
+    background-color:  white; 
+}
+.gdropdownItem:last-child:hover{
+    border-bottom: none;
+ }
+
+.gnavItem:hover .gdropdown{
+    opacity: 1;
+}
+
+.gnavItem:hover .warrow{
+    transition: all 20ms ease-in-out;
+    position: relative;
+    left: 5px;
+}
+.gnavItem:hover .warrow{
+    transition: all 350ms ease-in-out;
+    transform: rotate(180deg);
+}
+

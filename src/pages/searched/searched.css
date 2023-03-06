@@ -1,0 +1,56 @@
+
+.searchedContainer{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+.containerResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 100px;
+}
+.searchWrapper{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    max-width: 1024px;
+}
+.searchResults{
+    margin: 0px 10px;
+    flex:3;
+    max-width: 800px;
+}
+
+.resultTile{    
+    display: flex;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid ;
+    margin-bottom: 10px;
+}
+
+.tileImage{
+    height: 100%;
+
+}
+
+.tileDescription{
+    margin-left: 20px;
+}
+.searchFilter{
+    flex: 1;
+    
+}
+
+.adViewButton{
+    color: white;
+    height: 35px;
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    font-family: "roboto";
+    background-color:  rgb(0,61,43);
+    cursor: pointer;
+}

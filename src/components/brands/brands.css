@@ -1,0 +1,61 @@
+.containerBrands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+
+.heading{
+    font-size: 60px;
+    color: rgb(0,61,43);
+    font-family: "League Spartan";
+    position: relative;
+    top: -10px;
+}
+.wrapper{
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 20px;
+    background-color: lightgray;
+    width: 250px;
+    height: 280px;
+    border-radius: 12px;
+    transition: all 0.8s ease-in-out;
+}
+
+.brandImageApple{
+    height: 100px;
+    width: 90px;
+ }
+ 
+.brandImage{
+    position: relative;
+    top: 15px;
+   height: 100px;
+   width: 150px;
+}
+
+.brand:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.brandHeading{
+    color:  #febb02;
+}
+
+.numberPhones{
+    margin: 0px;
+    color: rgb(0,61,43);
+    font-family: "Roboto";
+}
